@@ -2,6 +2,7 @@ header nav a {
 	background-color: rgb(6, 6, 72);
 	padding: 1em;
 	text-decoration: none;
+	text-align: center;
 }
 
 header {
@@ -12,10 +13,13 @@ header {
 
 header nav {
 	display: flex;
+	align-items: center;
 }
 
 header h1 {
 	color: rgb(128, 32, 0);
+	font-size: 2rem;
+	text-align: center;
 }
 
 main {
